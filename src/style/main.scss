@@ -1,20 +1,11 @@
-@import "./searchBar";
-
 $color-gray-one:#666666;
 $color-gray-two:#B3B3B3;
+
+@import "./searchBar";
 
 
 html {
     font-size: 62.5%; // 1rem is 10px
-}
-
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: 'montserrat';
 }
 
 body {
@@ -40,6 +31,11 @@ body {
     justify-items: stretch;
     // grid-template-rows: 1fr 2fr 1fr;
 } 
+
+.logo-main, recent-posts{
+    display:grid;
+    justify-items:center;
+}
 
 .post-topic {
     margin: 0 4px;
