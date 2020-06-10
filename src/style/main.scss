@@ -2,8 +2,14 @@ $color-gray-one:#666666;
 $color-gray-two:#B3B3B3;
 $color-blue-one:#0079ff;
 
+
+@import "./mixins";
 @import "./searchBar";
 @import "./recentPosts";
+@import "./results";
+@import "./home";
+
+
 
 
 html {
@@ -24,15 +30,6 @@ body {
     display: grid;
     justify-content: center;
 }
-
-.home {
-    height: 100vh;
-    width: 66vw;
-    display: grid;
-    align-content: space-around;
-    justify-items: stretch;
-    // grid-template-rows: 1fr 2fr 1fr;
-} 
 
 .logo-main, recent-posts{
     display:grid;
